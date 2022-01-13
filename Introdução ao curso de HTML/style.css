@@ -22,7 +22,7 @@ a:hover {
     padding: 10px;
 }
 .title {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     line-height: 30px;
     margin: 0.2em 0;
@@ -48,6 +48,13 @@ a:hover {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0, 50%);
 }
+.foto {
+    display: inline-block;
+}
+.redes_sociais {
+    display: inline-block;
+    vertical-align: bottom;
+}
 li {
     list-style: none;
 }
@@ -65,8 +72,15 @@ article.post img {
     max-width: 100%;
 }
 footer {
-    background-color: #f2f2f2;
+    background-color: #333;
     padding: 10px;
+}
+footer .contato {
+    text-align: end;
+}
+footer .contato li {
+    display: inline-block;
+    padding: 0 5px;
 }
 
 @media screen and (min-width: 767px) {
@@ -78,7 +92,7 @@ footer {
 @media screen and (min-width:1200px) {
     article.post {
         max-width: calc(33% - 20px);
-        margin: 10px;
+        margin: 5px;
     }
 }
 

@@ -1,17 +1,44 @@
+:root {
+    --primary: tomato;
+    --secondary: yellowgreen;
+    --text: #444;
+    --over: slateblue;
+}
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text);
+}
+a {
+    color:var(--primary);
+    transition: 0.2s ease-in-out;
+}
+a:hover {
+    color: var(--secondary);
 }
 
 .main-header {
     background-color: #f2f2f2;
     padding: 10px;
 }
-.container {
-    max-width: 1000px;
-}
-.h1 {
+.title {
     font-size: 30px;
     font-weight: bold;
+    line-height: 30px;
+    margin: 0.2em 0;
+    color: var(--over) ;
+}
+.subtitle {
+    font-size: 24px;
+}
+.post_title {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: bold;
+}
+.autor > spam {
+    font-weight: bold;
+    color: var(--over);
 }
 .avatar {
     width: 100px;
@@ -19,20 +46,41 @@
     object-fit: cover;
     display: inline-block;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0,0,0, 50%);
 }
 li {
     list-style: none;
 }
 section {
-    padding: 10px
-}
-article {
-    max-width: 600px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
     padding: 10px;
+}
+article.post {
+    box-shadow: 0 0 10px rgba(0,0,0, 20%);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 2px;
+    display: inline-block;
+}
+article.post img {
+    max-width: 100%;
 }
 footer {
     background-color: #f2f2f2;
     padding: 10px;
 }
+
+@media screen and (min-width: 767px) {
+    article.post {
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media screen and (min-width:1200px) {
+    article.post {
+        max-width: calc(33% - 20px);
+        margin: 10px;
+    }
+}
+
+
+

@@ -14,6 +14,7 @@ O desafio consiste em criar um contador que ao clicar nos botões realizar incre
 
 ### Desafio to-do list
 site: [To-do List](https://todo.crc.dev.br/)
+
 O desafio consiste em criar uma lista de tarefas simples, com função de  adicionar uma nova tarefa na lista, com um checkbox para ser concluída e ao ser concluída ficar riscada.
 Levei o desafio um pouco a frente, adicionei alguns elementos.
 

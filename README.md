@@ -13,6 +13,7 @@ Desafios do curso "Introdução ao Javascript" ministrados por [stebsnusch](http
 O desafio consiste em criar um contador que ao clicar nos botões realizar incremento e decremento, os valores não podem passar de -10 e +10 e ao atingir esses valores o botão deve ser desabilitado e mudar de cor.
 
 ### Desafio to-do list
+site: [To-do List](https://todo.crc.dev.br/)
 O desafio consiste em criar uma lista de tarefas simples, com função de  adicionar uma nova tarefa na lista, com um checkbox para ser concluída e ao ser concluída ficar riscada.
 Levei o desafio um pouco a frente, adicionei alguns elementos.
 

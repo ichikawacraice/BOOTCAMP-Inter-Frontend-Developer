@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+</head>
+<body>
+    <div class="container">
+        <header><i class="fas fa-calculator"></i> Calculadora</header>
+        <div class="inputField">
+            <p>Digite os dois número para realizar a operação:</p>
+            <input class="inputAdd1" type="text" placeholder="Digite um número">
+            <input class="inputAdd2" type="text" placeholder="Digite o outro número">
+            <button class="btnAdd soma tooltip" onclick="soma()" ><i class="fas fa-plus"></i><span class="tooltiptext">Somar</span></button>
+            <button class="btnAdd subtracao tooltip" onclick="subtracao()"><i class="fas fa-minus"></i><span class="tooltiptext">Subtrair</span></button>
+            <button class="btnAdd multiplicacao tooltip" onclick="multiplicacao()"><i class="fas fa-times"></i><span class="tooltiptext">Multiplicar</span></button>
+            <button class="btnAdd divisao tooltip" onclick="divisao()"><i class="fas fa-divide"></i><span class="tooltiptext">Dividir</span></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="resultado">
+            <p>Resultado</p>    
+        </div>
+    </div>
+    <script src="scripts.js" defer></script>
+</body>
+</html>

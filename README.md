@@ -28,7 +28,7 @@ Levei o desafio um pouco a frente, adicionei alguns elementos.
 6. Depois de adicionar a tarefa, limpa o input
 7. Botão de remover todas as tarefas só se ativa ao existir uma tarefa
 
-![to-do list](https://github.com/ichikawacraice/BOOTCAMP-Inter-Frontend-Developer/blob/main/Introdu%C3%A7%C3%A3o%20ao%20JavaScript/to-do%20list.png?raw=true)
+![to-do list](https://raw.githubusercontent.com/ichikawacraice/BOOTCAMP-Inter-Frontend-Developer/main/Introdu%C3%A7%C3%A3o%20ao%20JavaScript/to-do%20list/to-do%20list.png)
 ***
 
 ## > Desafio Operadores (Calculadora)

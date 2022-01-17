@@ -6,14 +6,16 @@ Esse repositório possui diversas atividades básicas realizadas ao decorrer do 
 ## Introdução ao curso de HTML
 Página simples simulando um blog, contatos e redes sociais
 
-## Introdução ao JavaScript
+# Introdução ao JavaScript
 Desafios do curso "Introdução ao Javascript" ministrados por [stebsnusch](https://github.com/stebsnusch/basecamp-javascript)  pela [Digital Innovation One](https://digitalinnovation.one/).
+***
 
-### Desafio Contador
+## > Desafio Contador
 O desafio consiste em criar um contador que ao clicar nos botões realizar incremento e decremento, os valores não podem passar de -10 e +10 e ao atingir esses valores o botão deve ser desabilitado e mudar de cor.
+***
 
-### Desafio to-do list
-site: [To-do List](https://todo.crc.dev.br/)
+## > Desafio to-do list
+app online: [To-do List](https://todo.crc.dev.br/)
 
 O desafio consiste em criar uma lista de tarefas simples, com função de  adicionar uma nova tarefa na lista, com um checkbox para ser concluída e ao ser concluída ficar riscada.
 Levei o desafio um pouco a frente, adicionei alguns elementos.
@@ -27,4 +29,18 @@ Levei o desafio um pouco a frente, adicionei alguns elementos.
 7. Botão de remover todas as tarefas só se ativa ao existir uma tarefa
 
 ![to-do list](https://github.com/ichikawacraice/BOOTCAMP-Inter-Frontend-Developer/blob/main/Introdu%C3%A7%C3%A3o%20ao%20JavaScript/to-do%20list.png?raw=true)
+***
+
+## > Desafio Operadores (Calculadora)
+app online: [Calculadora](https://calculadora.crc.dev.br/)
+
+No desafio foi solicitada a criação de uma função que recebe dois números como parâmetros, confere se são iguais, se a soma deles é maior que 10, menor que 20, e depois retornar a string com todas as informaçÕes.
+
+1. Foi criada para o exercício uma calculadora com operaçÕes de adição, subtração, multiplicação e divisão.
+2. O botão checa se os campos de input estão preenchidos para ficarem ativos.
+3. É feita checagem se os valores digitados são válidos.
+4. Os resultados são mostrados na tela e a calculadora é reiniciada.
+
+![Calculadora](https://raw.githubusercontent.com/ichikawacraice/BOOTCAMP-Inter-Frontend-Developer/main/Introdu%C3%A7%C3%A3o%20ao%20JavaScript/operadores/calculadora.png) 
+***
 

@@ -41,6 +41,6 @@ No desafio foi solicitada a criação de uma função que recebe dois números c
 3. É feita checagem se os valores digitados são válidos.
 4. Os resultados são mostrados na tela e a calculadora é reiniciada.
 
-![Calculadora](https://raw.githubusercontent.com/ichikawacraice/BOOTCAMP-Inter-Frontend-Developer/main/Introdu%C3%A7%C3%A3o%20ao%20JavaScript/operadores/calculadora.png) 
+![Calculadora](https://raw.githubusercontent.com/ichikawacraice/BOOTCAMP-Inter-Frontend-Developer/main/Introdu%C3%A7%C3%A3o%20ao%20JavaScript/calculadora/calculadora.png) 
 ***
 

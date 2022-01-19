@@ -2,10 +2,6 @@
 Repositório criado para o DIO BOOTCAMP Inter Frontend Developer
 Esse repositório possui diversas atividades básicas realizadas ao decorrer do Bootcamp
 
-## Atividades
-## Introdução ao curso de HTML
-Página simples simulando um blog, contatos e redes sociais
-
 # Introdução ao JavaScript
 Desafios do curso "Introdução ao Javascript" ministrados por [stebsnusch](https://github.com/stebsnusch/basecamp-javascript)  pela [Digital Innovation One](https://digitalinnovation.one/).
 ***

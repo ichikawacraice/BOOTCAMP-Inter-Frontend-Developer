@@ -1,35 +1,30 @@
-var currentNumberWrapper = document.getElementById('currentNumber');
-var currentNumber = 0;
+const currentNumberWrapper = document.getElementById('currentNumber')
+const btnAdicionar = document.querySelector('.adicionar')
+const btnSubtrair = document.querySelector('.subtrair')
+let currentNumber = 0
 
-function increment() {
-    currentNumber = currentNumber + 1;
-    currentNumberWrapper.innerHTML = currentNumber; 
-    var elplus = document.getElementsByClassName('adicionar');
-    var elminus = document.getElementsByClassName('subtrair');
-    
-    if (currentNumber >= 10) {
-        elplus[0].classList.add('disabled');
-        elplus[0].setAttribute('disabled','true');
-    } 
-    else if (currentNumber < 10 && currentNumber > -10) {
-        elminus[0].classList.remove('disabled');
-        elminus[0].removeAttribute('disabled');
-    }
-    
+btnAdicionar.onclick = () => {
+  currentNumber = currentNumber + 1
+  currentNumberWrapper.innerHTML = currentNumber
+
+  if (currentNumber >= 10) {
+    btnAdicionar.classList.add('disabled')
+    btnAdicionar.setAttribute('disabled', 'true')
+  } else if (currentNumber < 10 && currentNumber > -10) {
+    btnSubtrair.classList.remove('disabled')
+    btnSubtrair.removeAttribute('disabled')
+  }
 }
 
-function decrement() {
-    currentNumber = currentNumber - 1;
-    currentNumberWrapper.innerHTML = currentNumber; 
-    var elplus = document.getElementsByClassName('adicionar');
-    var elminus = document.getElementsByClassName('subtrair');
+btnSubtrair.onclick = () => {
+  currentNumber = currentNumber - 1
+  currentNumberWrapper.innerHTML = currentNumber
 
-    if (currentNumber <= -10) {
-        elminus[0].classList.add('disabled');
-        elminus[0].setAttribute('disabled','true');
-    } 
-    else if (currentNumber > -10 && currentNumber < 10) {
-        elplus[0].classList.remove('disabled');
-        elplus[0].removeAttribute('disabled');
-    }
+  if (currentNumber <= -10) {
+    btnSubtrair.classList.add('disabled')
+    btnSubtrair.setAttribute('disabled', 'true')
+  } else if (currentNumber > -10 && currentNumber < 10) {
+    btnAdicionar.classList.remove('disabled')
+    btnAdicionar.removeAttribute('disabled')
+  }
 }
